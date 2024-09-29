@@ -5,3 +5,5 @@
 ### 2. Enter command to change directory into the new folder: cd gdg-Tas
 ### 3. Enter command to install dependencies: npm install
 ### 4. Enter command to run application: npm start
+<br></br>
+## This is a fully functional, responsive frontend React application of Google Developer Groups(GDG) Home page. 

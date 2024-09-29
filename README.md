@@ -6,4 +6,5 @@
 ### 3. Enter command to install dependencies: npm install
 ### 4. Enter command to run application: npm start
 <br></br>
-## This is a fully functional, responsive frontend React application of Google Developer Groups(GDG) Home page. 
+## This is a fully functional, responsive frontend React application of Google Developer Groups(GDG) Home page.
+## Technologies used: React, JS, HTML, CSS

@@ -1,0 +1,110 @@
+#Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    background-color: var(--footerBox);
+    margin-top: 5vw;
+    padding-top: 2.5vw;
+    position: relative;
+    height: 15vw;
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    box-shadow: var(--standardBoxShadow);
+}
+
+#FooterSVG{
+    width: 100%;
+    margin: 0;
+    background-color: var(--footerBox);
+    position: absolute;
+}
+
+#FooterLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#FooterLogoImg{
+    width: 8vw;
+    margin-bottom: 1vw;
+}
+
+#FooterLogoTitle{
+    font-size: 1.5vw;
+    margin: 0;
+    color: var(--textColorHome2);
+}
+
+#FooterLogo p{
+    margin: 0;
+}
+
+#FooterOnCampus{
+    color: var(--logoBlue);
+    font-size: 1vw;
+}
+
+#FooterLogo ul{
+    display: inline-block;
+    padding-left: 2vw;
+    margin: 0;
+    color: var(--textColor);
+    font-size: 1vw;
+}
+
+#FooterVerticalLine{
+    border-right: .25vh solid var(--black);
+    width: 5vw;
+    height: 12vw;
+}
+
+#FooterContacts{
+    width: 40vw;
+    color: var(--black);
+}
+
+#FooterContacts p{
+    font-size: 1.2vw;
+}
+
+#FooterContacts img{
+    width: 2vw;
+}
+
+#FooterLocation, #FooterEmail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#FooterContact{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#FooterEmail p{
+    text-decoration: underline;
+}
+
+#FooterContacts img{
+    padding: 1vw;
+}
+
+#FooterSocialIcons{
+    display: flex;
+}
+
+.FooterContainer{
+    background-color: var(--SocialBox);
+    border-radius: 50%;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw;
+}

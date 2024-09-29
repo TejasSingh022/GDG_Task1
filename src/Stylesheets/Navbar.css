@@ -1,0 +1,102 @@
+#navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--textColor);
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: var(--standardShadow);
+}
+
+#navbarBrand {
+    display: flex;
+    align-items: center;
+}
+
+#navbarLogo {
+    width: 4.5vw;
+    margin: 2vw;
+}
+
+#navbarPages {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul {
+    width: 55vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--textColor);
+    transition: color 0.3s;
+}
+
+#navbar a.activePage {
+    color: var(--black);
+}
+
+#navbar a:hover {
+    color: var(--black);
+}
+
+#navbarMenuButton {
+    display: none; 
+    background: none;
+    border: none;
+    font-size: 2.5vh;
+    color: var(--textColor);
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #navbarBrand p{
+        font-size: 2.5vw;
+    }
+
+    #navbarLogo{
+        width: 8vw;
+    }
+
+    #navbarMenuButton {
+        display: block;
+        margin: 2vh;
+        font-size: 4vh;
+        width: 7vh;
+    }
+
+    #navbarPages {
+        display: none; 
+        position: absolute;
+        left: 0;
+        top: 11vh; 
+        width: 100%;
+        height: 90vh;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--footerBox);
+        z-index: 1000;
+    }
+
+    #navbarPages.open {
+        display: flex; 
+    }
+
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    .navbarPage {
+        margin: 5vh 0; 
+    }
+}

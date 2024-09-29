@@ -1,0 +1,86 @@
+#TechTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TechTitle hr{
+    width: 30vw;
+    height: 0.5vw;
+    background-color: var(--logoRed);
+    border: none;
+}
+
+#Technologies{
+    font-family: var(--font-family-main);
+    font-weight: 700;
+    text-align: center;
+    font-size: 4vw;
+    color: var(--textColorHome2);
+    margin: 0;
+}
+
+#TechSubTitle{
+    text-align: center;
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    font-size: 2vw;
+    color: var(--textColorHome2);
+    margin-bottom: 10vw;
+}
+
+#TechCards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TechCard, .TechCardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TechCard hr{
+    height: 0.5vw;
+    width: 15vw;
+    border-radius: 1vw;
+    border: none;
+}
+
+#Android hr{
+    background-color: var(--logoRed);
+}
+
+#Flutter hr{
+    background-color: var(--logoBlue);
+}
+
+#Cloud hr{
+    background-color: var(--logoGreen);
+}
+
+.TechCardBox{
+    box-shadow: var(--standardBoxShadow);
+    width: 25vw;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.TechCardBox p{
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    color: var(--textColorHome2);
+    font-size: 2.5vw;
+    margin: 1vw;
+}
+
+.TechImg{
+    width: 10vw;
+    height: 10vw;
+}
+
+.DownArrow{
+    width: 2vw;
+}

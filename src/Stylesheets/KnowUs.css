@@ -1,0 +1,155 @@
+#KnowUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#KnowUsJoin{
+    background-color: var(--logoBlue);
+    color: var(--bgColor);
+    font-family: var(--font-family-open);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    border-radius: 6.6px;
+    width: 25vw;
+    height: 4vw;
+    font-size: 2vw;
+    box-shadow: 0px 0vh 1vh rgba(0, 0, 0, 0.25);
+    margin: 4vw;
+}
+
+#KnowUsArrowSVG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#GetToKnowUs{
+    font-size: 4vw;
+    font-family: var(--font-family-main);
+    font-style: normal;
+    font-weight: 700;
+    color: var(--textColorHome2);
+}
+
+.KnowUsTitle{
+    font-family: var(--font-family-main);
+    font-weight: 500;
+    color: var(--textColorHome2);
+    font-size: 3vw;
+}
+
+.KnowUsCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.KnowUsContent{
+    font-size: 2vw;
+    color: var(--textColorHome2);
+    font-family: var(--font-family-main);
+    font-weight: 500;
+    padding: 1vw;
+}
+
+#Mission .KnowUsContent, #KeepsUsGoing .KnowUsContent{
+    text-align: right;
+}
+
+.CardContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4vw;
+}
+
+.KnowUsLine{
+    width: 12vw;
+    height: 0.5vw;
+    border: none;
+}
+
+#Mission .KnowUsLine{
+    background-color: var(--logoBlue);
+    margin-bottom: 0;
+}
+
+#Perspective .KnowUsLine{
+    background-color: var(--logoGreen);
+}
+
+#KeepsUsGoing .KnowUsLine{
+    background-color: var(--logoYellow);
+}
+
+#Records{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15vw;
+}
+
+.Record{
+    margin: 5vw;
+}
+
+.RecordNumber{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RecordNumber p{
+    position: absolute;
+    text-align: center;
+    font-family: var(--font-family-main);
+    font-weight: 700;
+    color: var(--textColorHome2);
+    font-size: 4vw;
+    border-radius: 50%;
+    background-color: var(--bgColor);
+    transform: translateY(-0.25vw);
+}
+
+#Record1 p, #Record2 p{
+    padding: 4vw 3vw;
+}
+
+#Record3 p{
+    padding: 4vw 2.5vw;
+}
+
+#Record4 p{
+    padding: 4vw 2vw;
+}
+
+.RecordName{
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    color: var(--textColorRecord);
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 0;
+}
+
+.CardImage{
+    width: 40vw;
+}
+
+.CardOutline{
+    width: 1vw;
+}
+
+.circle{
+    width: 15vw;
+}
+
+.KnowUsArrows{
+    width: 5vw;
+}

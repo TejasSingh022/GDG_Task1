@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --bgColor: rgb(255,255,255);
+    --toggleBackground: rgb(89, 89, 89);
+    --textColor: rgb(134, 134, 134);
+    --textColorHome: rgb(100, 100, 100);
+    --textColorHome2: rgb(95, 95, 95);
+    --black: rgb(0,0,0);
+    --logoBlue: rgb(66, 134, 244);
+    --logoGreen: rgb(15, 157, 88);
+    --logoRed: rgb(219, 68, 55);
+    --logoYellow: rgb(244, 180, 0);
+    --font-family-main: "Product Sans", sans-serif;
+    --font-family-open: "Open Sans", sans-serif;
+    --textColorRecord: rgb(53,53,53);
+    --QuestionBox: rgb(225, 225, 225);
+    --footerBox: rgb(236, 236, 236);
+    --SocialBox: rgb(241,241,241);
+    --standardShadow: 0px 0vh 1vh rgba(0, 0, 0, 0.25);
+    --standardBoxShadow: 0px 0vh 2.5vh rgba(0, 0, 0, 0.25);
+}
+
+.dark-theme{
+    --bgColor: rgb(0,0,0);
+    --toggleBackground: rgb(208, 208, 208);
+    --textColor: rgb(181, 181, 181);
+    --textColorHome: rgb(193, 193, 193);
+    --textColorHome2: rgb(175, 175, 175);
+    --black: rgb(255,255,255);
+    --textColorRecord: rgb(188, 188, 188);
+    --footerBox: rgb(30, 30, 30);
+    --SocialBox: rgb(255, 255, 255);
+    --standardShadow: 0px 0vh 1vh rgba(255, 255, 255, .5);
+    --standardBoxShadow: 0px 0vh 2.5vh rgba(255, 255, 255, .5);
+}

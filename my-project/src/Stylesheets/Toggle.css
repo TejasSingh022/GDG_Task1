@@ -1,0 +1,70 @@
+#Toggle{
+  margin-right: 2vw;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 6vw;
+  height: 2.5vw;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--toggleBackground);
+  transition: .4s;
+  border-radius: 2vw;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2vw;
+  width: 2vw;
+  left: .3vw;
+  bottom: 0.2vw;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+  background-image: url(../Assets/Toggle.svg);
+  background-size: cover;
+}
+
+input:checked + .slider {
+  background-color: var(--toggleBackground);
+}
+
+input:checked + .slider:before {
+  transform: translateX(3.5vw);
+  background-image: url(../Assets/Toggle2.svg);
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .switch{
+    width: 10vw;
+    height: 5vw;
+  }
+
+  .slider:before {
+    height: 4vw;
+    width: 4vw;
+    left: .2vw;
+    bottom: 0.3vw;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(5vw);
+  }
+}
